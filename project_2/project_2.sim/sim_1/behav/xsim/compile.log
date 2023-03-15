@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shudianjiegou/shudianzuoye/project_2/project_2.srcs/sources_1/new/text.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module text
+ERROR: [VRFC 10-3640] port 'A' is not defined [D:/shudianjiegou/shudianzuoye/project_2/project_2.srcs/sources_1/new/text.v:26]
+ERROR: [VRFC 10-3640] port 'B' is not defined [D:/shudianjiegou/shudianzuoye/project_2/project_2.srcs/sources_1/new/text.v:27]
+ERROR: [VRFC 10-2865] module 'text' ignored due to previous errors [D:/shudianjiegou/shudianzuoye/project_2/project_2.srcs/sources_1/new/text.v:23]

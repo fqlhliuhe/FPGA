@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/gaijiaotongdeng/jiaotongdeng.srcs/sources_1/new/jtd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiaotongdeng
+INFO: [VRFC 10-311] analyzing module jtd
+INFO: [VRFC 10-311] analyzing module smgsm
+INFO: [VRFC 10-311] analyzing module fpq1
+INFO: [VRFC 10-311] analyzing module fpq2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/gaijiaotongdeng/jiaotongdeng.srcs/sim_1/new/jtdfz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtdfz

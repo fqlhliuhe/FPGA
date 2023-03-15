@@ -1,0 +1,7 @@
+Running: xsim.dir/zy1si_behav/xsimk.exe -simmode gui -wdb zy1si_behav.wdb -simrunnum 0 -socket 59050
+Design successfully loaded
+Design Loading Memory Usage: 8092 KB (Peak: 8092 KB)
+Design Loading CPU Usage: 155 ms
+Simulation completed
+Simulation Memory Usage: 8652 KB (Peak: 8652 KB)
+Simulation CPU Usage: 155 ms

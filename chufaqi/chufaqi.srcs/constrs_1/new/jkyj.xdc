@@ -1,0 +1,16 @@
+set_property PACKAGE_PIN V5 [get_ports CLK]
+set_property PACKAGE_PIN T4 [get_ports J]
+set_property PACKAGE_PIN V6 [get_ports K]
+set_property PACKAGE_PIN U6 [get_ports Q]
+set_property PACKAGE_PIN R5 [get_ports _Q_]
+
+set_property IOSTANDARD LVCMOS18 [get_ports CLK]
+set_property IOSTANDARD LVCMOS18 [get_ports J]
+set_property IOSTANDARD LVCMOS18 [get_ports K]
+set_property IOSTANDARD LVCMOS18 [get_ports Q]
+set_property IOSTANDARD LVCMOS18 [get_ports _Q_]
+
+set_property PULLDOWN true [get_ports CLK]
+set_property PULLDOWN true [get_ports J]
+set_property PULLDOWN true [get_ports K]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets CLK_IBUF]

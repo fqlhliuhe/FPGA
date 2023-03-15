@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CPU8.srcs/sources_1/ip/RAM_C/sim/RAM_C.v" \
+"../../../../CPU8.srcs/sources_1/ip/RAM_B/sim/RAM_B.v" \
+"../../../../CPU8.srcs/sources_1/new/ALU.v" \
+"../../../../CPU8.srcs/sources_1/new/CPU_D.v" \
+"../../../../CPU8.srcs/sources_1/new/CU.v" \
+"../../../../CPU8.srcs/sources_1/new/FR.v" \
+"../../../../CPU8.srcs/sources_1/new/ID1.v" \
+"../../../../CPU8.srcs/sources_1/new/ID2.v" \
+"../../../../CPU8.srcs/sources_1/new/IR.v" \
+"../../../../CPU8.srcs/sources_1/new/ImmU.v" \
+"../../../../CPU8.srcs/sources_1/new/MDR.v" \
+"../../../../CPU8.srcs/sources_1/new/PC.v" \
+"../../../../CPU8.srcs/sources_1/new/Reg.v" \
+"../../../../CPU8.srcs/sources_1/new/sixone.v" \
+"../../../../CPU8.srcs/sources_1/new/twoone1.v" \
+"../../../../CPU8.srcs/sources_1/new/twoone2.v" \
+"../../../../CPU8.srcs/sources_1/new/zcA.v" \
+"../../../../CPU8.srcs/sources_1/new/zcB.v" \
+"../../../../CPU8.srcs/sources_1/new/zcF.v" \
+"../../../../CPU8.srcs/sim_1/new/CPU7fz.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

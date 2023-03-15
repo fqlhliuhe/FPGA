@@ -1,0 +1,27 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sim_1/new/CPU7fz.v,1624038554,verilog,,,,CPU7fz,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/ip/RAM_B/sim/RAM_B.v,1624632844,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/ALU.v,,RAM_B,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/ip/RAM_C/sim/RAM_C.v,1624632930,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/ip/RAM_B/sim/RAM_B.v,,RAM_C,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/ALU.v,1624630007,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/CPU_D.v,,ALU,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/CPU_D.v,1624701908,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/CU.v,,CPU_D,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/CU.v,1624182267,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/FR.v,,CU,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/FR.v,1624183604,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/ID1.v,,FR,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/ID1.v,1624091002,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/ID2.v,,ID1,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/ID2.v,1624092302,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/IR.v,,ID2,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/IR.v,1624206354,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/ImmU.v,,IR,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/ImmU.v,1624091519,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/MDR.v,,ImmU,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/MDR.v,1624089919,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/PC.v,,MDR,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/PC.v,1624207141,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/PC0.v,,PC,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/PC0.v,1624207161,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/PC_threeone.v,,PC0,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/PC_threeone.v,1624186191,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/Reg.v,,PC_threeone,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/Reg.v,1624183366,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/sixone.v,,Reg,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/sixone.v,1623817336,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/smgxs.v,,sevenone,,,,,,,,
+,,,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/twoone2.v,,fpq;smgsm,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/twoone2.v,1623932527,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/zcA.v,,fourone2,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/zcA.v,1624183404,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/zcB.v,,zcA,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/zcB.v,1624183421,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/zcF.v,,zcB,,,,,,,,
+D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sources_1/new/zcF.v,1624183492,verilog,,D:/Vivado/shudianzuoye/CPU9_8/CPU9_8.srcs/sim_1/new/CPU7fz.v,,zcF,,,,,,,,

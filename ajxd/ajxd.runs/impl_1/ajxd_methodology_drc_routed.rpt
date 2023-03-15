@@ -1,0 +1,92 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Dec 16 08:47:35 2020
+| Host         : LAPTOP-EO0RR57C running 64-bit major release  (build 9200)
+| Command      : report_methodology -file ajxd_methodology_drc_routed.rpt -pb ajxd_methodology_drc_routed.pb -rpx ajxd_methodology_drc_routed.rpx
+| Design       : ajxd
+| Device       : xc7a100tcsg324-2L
+| Speed File   : -2L
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 11
++-----------+----------+------------------------------+------------+
+| Rule      | Severity | Description                  | Violations |
++-----------+----------+------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert | 2          |
+| TIMING-17 | Warning  | Non-clocked sequential cell  | 7          |
+| TIMING-20 | Warning  | Non-clocked latch            | 2          |
++-----------+----------+------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell S_reg[1]_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) S_reg[0]_P/PRE, S_reg[1]_P/PRE, key_pulse_reg_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell S_reg[1]_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) S_reg[0]_C/CLR, S_reg[1]_C/CLR, S_reg[1]_LDC/CLR, key_pulse_reg_C/CLR, key_pulse_reg_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin S_reg[0]_C/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin S_reg[0]_P/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Warning
+Non-clocked sequential cell  
+The clock pin S_reg[1]_C/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Warning
+Non-clocked sequential cell  
+The clock pin S_reg[1]_P/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Warning
+Non-clocked sequential cell  
+The clock pin S_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Warning
+Non-clocked sequential cell  
+The clock pin key_pulse_reg_C/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Warning
+Non-clocked sequential cell  
+The clock pin key_pulse_reg_P/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch S_reg[1]_LDC cannot be properly analyzed as its control pin S_reg[1]_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch key_pulse_reg_LDC cannot be properly analyzed as its control pin key_pulse_reg_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-2L" LaunchTime="1624089485">
+  <File Type="PA-TCL" Name="CPU_D.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="CPU_D_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="CPU_D_reports.tcl"/>
+  <File Type="RDS-RDS" Name="CPU_D.vds"/>
+  <File Type="RDS-UTIL" Name="CPU_D_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="CPU_D_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="CPU_D.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="CPU_D_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="CPU_D_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/RAM_B/RAM_B.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ZLYM/ZLYM.srcs/sources_1/ip/RAM_B/RAM_B.xci"/>
+        <Attr Name="ImportTime" Val="1622376639"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/ALU.v"/>
+        <Attr Name="ImportTime" Val="1623594446"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/CU.v"/>
+        <Attr Name="ImportTime" Val="1623762071"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FR.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/FR.v"/>
+        <Attr Name="ImportTime" Val="1623593873"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ID1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ZLYM/ZLYM.srcs/sources_1/new/ID1.v"/>
+        <Attr Name="ImportTime" Val="1622558759"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ID2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/ID2.v"/>
+        <Attr Name="ImportTime" Val="1623766010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IR.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ZLYM/ZLYM.srcs/sources_1/new/IR.v"/>
+        <Attr Name="ImportTime" Val="1622471084"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ImmU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ZLYM/ZLYM.srcs/sources_1/new/ImmU.v"/>
+        <Attr Name="ImportTime" Val="1622558550"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MDR.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ZLYM/ZLYM.srcs/sources_1/new/PC.v"/>
+        <Attr Name="ImportTime" Val="1622604936"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Reg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/Reg.v"/>
+        <Attr Name="ImportTime" Val="1623593507"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sixone.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/sixone.v"/>
+        <Attr Name="ImportTime" Val="1623595345"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/smgxs.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ZLYM/ZLYM.srcs/sources_1/new/smgxs.v"/>
+        <Attr Name="ImportTime" Val="1622508280"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/twoone1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/twoone1.v"/>
+        <Attr Name="ImportTime" Val="1623594763"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/twoone2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/twoone2.v"/>
+        <Attr Name="ImportTime" Val="1623594904"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/zcA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/zcA.v"/>
+        <Attr Name="ImportTime" Val="1623593543"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/zcB.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/zcB.v"/>
+        <Attr Name="ImportTime" Val="1623593662"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/zcF.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/zcF.v"/>
+        <Attr Name="ImportTime" Val="1623593788"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CPU_D.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/new/CPU_D.v"/>
+        <Attr Name="ImportTime" Val="1623767896"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/acc.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ZLYM/ZLYM.srcs/sources_1/acc.coe"/>
+        <Attr Name="ImportTime" Val="1622378465"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/RIU_test.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/sources_1/RIU_test.coe"/>
+        <Attr Name="ImportTime" Val="1623156621"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/CPU8.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/CPU8_DB.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CPU_D"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/CPU7yj.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CPU7/CPU7.srcs/constrs_1/new/CPU7yj.xdc"/>
+        <Attr Name="ImportTime" Val="1623768235"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="RAM_C"/>
+</GenRun>

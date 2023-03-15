@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jan  6 09:34:30 2021
+# Process ID: 7632
+# Current directory: C:/Users/·ãÇ§Âä»¨/Desktop/lh/jiaotongdeng
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10624 C:\Users\·ãÇ§Âä»¨\Desktop\lh\jiaotongdeng\jiaotongdeng.xpr
+# Log file: C:/Users/·ãÇ§Âä»¨/Desktop/lh/jiaotongdeng/vivado.log
+# Journal file: C:/Users/·ãÇ§Âä»¨/Desktop/lh/jiaotongdeng\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/·ãÇ§Âä»¨/Desktop/lh/jiaotongdeng/jiaotongdeng.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Vivado/shudianzuoye/jiaotongdeng' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 810.516 ; gain = 196.418
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Jan  6 09:37:54 2021] Launched synth_1...
+Run output will be captured here: C:/Users/·ãÇ§Âä»¨/Desktop/lh/jiaotongdeng/jiaotongdeng.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Jan  6 09:42:59 2021] Launched synth_1...
+Run output will be captured here: C:/Users/·ãÇ§Âä»¨/Desktop/lh/jiaotongdeng/jiaotongdeng.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Jan  6 09:44:54 2021] Launched synth_1...
+Run output will be captured here: C:/Users/·ãÇ§Âä»¨/Desktop/lh/jiaotongdeng/jiaotongdeng.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  6 09:46:09 2021...

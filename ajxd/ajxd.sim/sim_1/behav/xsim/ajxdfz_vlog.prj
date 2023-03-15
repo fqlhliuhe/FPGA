@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ajxd.srcs/sources_1/new/ajxd.v" \
+"../../../../ajxd.srcs/sim_1/new/ajxdfz.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

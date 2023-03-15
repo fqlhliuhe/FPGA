@@ -1,0 +1,569 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Oct 31 20:05:26 2020
+# Process ID: 21768
+# Current directory: D:/Vivado/shudianzuoye/fengle/fengle.runs/synth_1
+# Command line: vivado.exe -log FAsi.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FAsi.tcl
+# Log file: D:/Vivado/shudianzuoye/fengle/fengle.runs/synth_1/FAsi.vds
+# Journal file: D:/Vivado/shudianzuoye/fengle/fengle.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FAsi.tcl -notrace
+Command: synth_design -top FAsi -part xc7a100tfgg484-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10836 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 430.219 ; gain = 97.984
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'FAsi' [D:/Vivado/shudianzuoye/fengle/fengle.srcs/sources_1/new/nama.v:39]
+INFO: [Synth 8-6157] synthesizing module 'FA' [D:/Vivado/shudianzuoye/fengle/fengle.srcs/sources_1/new/nama.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'FA' (1#1) [D:/Vivado/shudianzuoye/fengle/fengle.srcs/sources_1/new/nama.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'FAsi' (2#1) [D:/Vivado/shudianzuoye/fengle/fengle.srcs/sources_1/new/nama.v:39]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 486.660 ; gain = 154.426
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 486.660 ; gain = 154.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 486.660 ; gain = 154.426
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_100M'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[19]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[18]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[17]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[16]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[15]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[14]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[13]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[12]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[11]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[10]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[9]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[8]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[7]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[6]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[5]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[4]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[3]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[2]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[1]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_S[0]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_S[7]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_S[6]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_S[5]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_S[4]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_S[3]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_S[2]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_S[1]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_S[0]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[19]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[18]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[17]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[16]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[15]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[14]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[13]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[12]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[11]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[10]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[9]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[8]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[7]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[6]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[5]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[4]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[3]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[2]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[1]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_S[0]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN_S[7]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN_S[6]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN_S[5]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN_S[4]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN_S[3]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN_S[2]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN_S[1]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN_S[0]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CA_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CB_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CC_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CD_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CE_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CF_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CG_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DP_S'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[19]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[18]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[17]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[16]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[15]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[14]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[13]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[12]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[11]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[10]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[9]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[8]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[7]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[6]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[5]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[4]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[3]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[2]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[1]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW_X[0]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_X'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_X[7]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_X[6]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_X[5]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_X[4]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_X[3]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_X[2]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:122]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:122]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_X[1]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:123]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_X[0]'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_X'. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:127]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Vivado/shudianzuoye/fengle/fengle.srcs/constrs_1/new/hehe.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 797.020 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 797.020 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 798.293 ; gain = 1.273
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 798.293 ; gain = 466.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg484-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 798.293 ; gain = 466.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 798.293 ; gain = 466.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 798.293 ; gain = 466.059
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 798.293 ; gain = 466.059
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 811.953 ; gain = 479.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 811.953 ; gain = 479.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 821.551 ; gain = 489.316
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 821.551 ; gain = 489.316
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 821.551 ; gain = 489.316
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 821.551 ; gain = 489.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 821.551 ; gain = 489.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 821.551 ; gain = 489.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 821.551 ; gain = 489.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     2|
+|2     |LUT5 |     4|
+|3     |IBUF |     9|
+|4     |OBUF |     5|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    20|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 821.551 ; gain = 489.316
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 821.551 ; gain = 177.684
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 821.551 ; gain = 489.316
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 832.297 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 101 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 832.348 ; gain = 512.750
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 832.348 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Vivado/shudianzuoye/fengle/fengle.runs/synth_1/FAsi.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file FAsi_utilization_synth.rpt -pb FAsi_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 31 20:05:53 2020...

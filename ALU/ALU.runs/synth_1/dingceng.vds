@@ -1,0 +1,396 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun May  9 16:56:24 2021
+# Process ID: 18868
+# Current directory: D:/Vivado/shudianzuoye/ALU/ALU.runs/synth_1
+# Command line: vivado.exe -log dingceng.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dingceng.tcl
+# Log file: D:/Vivado/shudianzuoye/ALU/ALU.runs/synth_1/dingceng.vds
+# Journal file: D:/Vivado/shudianzuoye/ALU/ALU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dingceng.tcl -notrace
+Command: synth_design -top dingceng -part xc7a100tcsg324-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15768 
+WARNING: [Synth 8-2292] literal value truncated to fit in 9 bits [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:176]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 441.945 ; gain = 110.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dingceng' [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:21]
+INFO: [Synth 8-6157] synthesizing module 'zcA' [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'zcA' (1#1) [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:68]
+INFO: [Synth 8-6157] synthesizing module 'zcB' [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'zcB' (2#1) [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:82]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:129]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:144]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (3#1) [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:129]
+INFO: [Synth 8-6157] synthesizing module 'zcF' [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:96]
+INFO: [Synth 8-6155] done synthesizing module 'zcF' (4#1) [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:96]
+INFO: [Synth 8-6157] synthesizing module 'jcqFR' [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'jcqFR' (5#1) [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:110]
+INFO: [Synth 8-6157] synthesizing module 'fpq' [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:164]
+INFO: [Synth 8-6155] done synthesizing module 'fpq' (6#1) [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:164]
+INFO: [Synth 8-6157] synthesizing module 'threeone' [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'threeone' (7#1) [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:51]
+INFO: [Synth 8-6157] synthesizing module 'smgsm' [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:186]
+INFO: [Synth 8-226] default block is never used [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:203]
+INFO: [Synth 8-226] default block is never used [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:217]
+INFO: [Synth 8-226] default block is never used [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:231]
+INFO: [Synth 8-6155] done synthesizing module 'smgsm' (8#1) [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:186]
+INFO: [Synth 8-6155] done synthesizing module 'dingceng' (9#1) [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 475.840 ; gain = 144.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 475.840 ; gain = 144.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 475.840 ; gain = 144.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Vivado/shudianzuoye/ALU/ALU.srcs/constrs_1/new/ALUgj.xdc]
+Finished Parsing XDC File [D:/Vivado/shudianzuoye/ALU/ALU.srcs/constrs_1/new/ALUgj.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado/shudianzuoye/ALU/ALU.srcs/constrs_1/new/ALUgj.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dingceng_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/dingceng_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 805.055 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 805.055 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 805.055 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 805.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 805.055 ; gain = 473.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 805.055 ; gain = 473.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 805.055 ; gain = 473.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "CLK" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'ALU_F_reg' [D:/Vivado/shudianzuoye/ALU/ALU.srcs/sources_1/new/ALU.v:145]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 805.055 ; gain = 473.215
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module zcA 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module zcB 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     33 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   4 Input      1 Bit         XORs := 1     
++---Muxes : 
+	  11 Input      1 Bit        Muxes := 2     
+Module zcF 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module jcqFR 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module fpq 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module threeone 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module smgsm 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "gg/CLK" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[28]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[28]' (FDC) to 'bb/ALU_B_reg[31]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[24]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[24]' (FDC) to 'bb/ALU_B_reg[31]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[20]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[20]' (FDC) to 'bb/ALU_B_reg[31]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[29]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[29]' (FDC) to 'bb/ALU_B_reg[31]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[25]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[25]' (FDC) to 'bb/ALU_B_reg[31]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[21]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[21]' (FDC) to 'bb/ALU_B_reg[31]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[30]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[30]' (FDC) to 'bb/ALU_B_reg[31]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[26]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[26]' (FDC) to 'bb/ALU_B_reg[31]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[22]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[22]' (FDC) to 'bb/ALU_B_reg[31]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[31]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[31]' (FDC) to 'bb/ALU_B_reg[27]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[27]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[27]' (FDC) to 'bb/ALU_B_reg[23]'
+INFO: [Synth 8-3886] merging instance 'aa/ALU_A_reg[23]' (FDC) to 'aa/ALU_A_reg[19]'
+INFO: [Synth 8-3886] merging instance 'bb/ALU_B_reg[23]' (FDC) to 'bb/ALU_B_reg[19]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 805.055 ; gain = 473.215
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 825.215 ; gain = 493.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 825.809 ; gain = 493.969
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 849.199 ; gain = 517.359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.199 ; gain = 517.359
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.199 ; gain = 517.359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.199 ; gain = 517.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.199 ; gain = 517.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.199 ; gain = 517.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.199 ; gain = 517.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     5|
+|2     |CARRY4 |    26|
+|3     |LUT1   |     3|
+|4     |LUT2   |   100|
+|5     |LUT3   |    71|
+|6     |LUT4   |    84|
+|7     |LUT5   |    79|
+|8     |LUT6   |   218|
+|9     |MUXF7  |     3|
+|10    |FDCE   |    89|
+|11    |LD     |    32|
+|12    |IBUF   |    26|
+|13    |OBUF   |    20|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   756|
+|2     |  aa     |zcA    |   194|
+|3     |  bb     |zcB    |   301|
+|4     |  cc     |ALU    |    89|
+|5     |  dd     |zcF    |    72|
+|6     |  ee     |jcqFR  |     4|
+|7     |  ff     |smgsm  |    16|
+|8     |  gg     |fpq    |    27|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.199 ; gain = 517.359
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 849.199 ; gain = 188.145
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.199 ; gain = 517.359
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 849.199 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  LD => LDCE: 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+60 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 849.199 ; gain = 529.992
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 849.199 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Vivado/shudianzuoye/ALU/ALU.runs/synth_1/dingceng.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dingceng_utilization_synth.rpt -pb dingceng_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May  9 16:56:57 2021...

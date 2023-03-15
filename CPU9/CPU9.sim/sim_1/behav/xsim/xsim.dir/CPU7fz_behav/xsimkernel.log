@@ -1,0 +1,7 @@
+Running: xsim.dir/CPU7fz_behav/xsimk.exe -simmode gui -wdb CPU7fz_behav.wdb -simrunnum 0 -socket 64501
+Design successfully loaded
+Design Loading Memory Usage: 6192 KB (Peak: 6192 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 7308 KB (Peak: 7308 KB)
+Simulation CPU Usage: 155 ms

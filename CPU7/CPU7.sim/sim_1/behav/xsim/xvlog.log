@@ -1,0 +1,36 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/ip/RAM_B/sim/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/CPU_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/FR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/ID1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/ID2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/ImmU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/sixone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sixone
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/twoone1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twoone1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/twoone2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twoone2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/zcA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zcA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/zcB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zcB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sources_1/new/zcF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zcF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/CPU7/CPU7.srcs/sim_1/new/CPU7fz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU7fz

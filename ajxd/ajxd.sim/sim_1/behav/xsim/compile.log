@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/ajxd/ajxd.srcs/sources_1/new/ajxd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ajxd
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado/shudianzuoye/ajxd/ajxd.srcs/sim_1/new/ajxdfz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ajxdfz

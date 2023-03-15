@@ -1,0 +1,12 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/shudianjiegou/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto f43438cd410543c58df506ce741a0785 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FAsi_behav xil_defaultlib.FAsi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'C4' on this module [D:/shudianjiegou/shudianzuoye/X1FA/X1FA.srcs/sim_1/new/FAsi.v:37]
+ERROR: [VRFC 10-3180] cannot find port 'F' on this module [D:/shudianjiegou/shudianzuoye/X1FA/X1FA.srcs/sim_1/new/FAsi.v:36]
+ERROR: [VRFC 10-3180] cannot find port 'C0' on this module [D:/shudianjiegou/shudianzuoye/X1FA/X1FA.srcs/sim_1/new/FAsi.v:43]
+ERROR: [VRFC 10-3180] cannot find port 'C4' on this module [D:/shudianjiegou/shudianzuoye/X1FA/X1FA.srcs/sim_1/new/FAsi.v:40]
+ERROR: [VRFC 10-3180] cannot find port 'F' on this module [D:/shudianjiegou/shudianzuoye/X1FA/X1FA.srcs/sim_1/new/FAsi.v:39]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Oct 30 19:50:24 2020
+# Process ID: 8460
+# Current directory: D:/shudianjiegou/shudianzuoye/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log zy1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source zy1.tcl -notrace
+# Log file: D:/shudianjiegou/shudianzuoye/project_1/project_1.runs/impl_1/zy1.vdi
+# Journal file: D:/shudianjiegou/shudianzuoye/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source zy1.tcl -notrace

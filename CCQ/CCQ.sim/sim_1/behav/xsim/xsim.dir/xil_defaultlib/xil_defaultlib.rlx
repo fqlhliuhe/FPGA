@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Vivado/shudianzuoye/CCQ/CCQ.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Vivado/shudianzuoye/CCQ/CCQ.srcs/sim_1/new/ccqfz.v,1621157941,verilog,,D:/Vivado/shudianzuoye/CCQ/CCQ.srcs/sources_1/new/xianshi.v,,ccqfz,,,,,,,,
+D:/Vivado/shudianzuoye/CCQ/CCQ.srcs/sources_1/ip/RAM_B/sim/RAM_B.v,1621147249,verilog,,D:/Vivado/shudianzuoye/CCQ/CCQ.srcs/sim_1/new/ccqfz.v,,RAM_B,,,,,,,,
+D:/Vivado/shudianzuoye/CCQ/CCQ.srcs/sources_1/new/chucun.v,1621149942,verilog,,,,chucun;xuanze,,,,,,,,
+D:/Vivado/shudianzuoye/CCQ/CCQ.srcs/sources_1/new/xianshi.v,1621139786,verilog,,D:/Vivado/shudianzuoye/CCQ/CCQ.srcs/sources_1/new/chucun.v,,fpq;smgsm,,,,,,,,

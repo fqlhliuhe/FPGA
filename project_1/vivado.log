@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Oct 19 21:48:51 2020
+# Process ID: 24448
+# Current directory: D:/shudianjiegou/shudianzuoye/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13736 D:\shudianjiegou\shudianzuoye\project_1\project_1.xpr
+# Log file: D:/shudianjiegou/shudianzuoye/project_1/vivado.log
+# Journal file: D:/shudianjiegou/shudianzuoye/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/shudianjiegou/shudianzuoye/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/shudianjiegou/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 1199.262 ; gain = 124.086
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/shudianjiegou/shudianzuoye/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'zy1si' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/shudianjiegou/shudianzuoye/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj zy1si_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/shudianjiegou/shudianzuoye/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab -wto e18249ee76c7487aafba135329ca42c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot zy1si_behav xil_defaultlib.zy1si xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/shudianjiegou/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto e18249ee76c7487aafba135329ca42c6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot zy1si_behav xil_defaultlib.zy1si xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/shudianjiegou/shudianzuoye/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "zy1si_behav -key {Behavioral:sim_1:Functional:zy1si} -tclbatch {zy1si.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.

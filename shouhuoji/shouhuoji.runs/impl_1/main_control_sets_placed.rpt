@@ -1,0 +1,85 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Dec 27 16:15:26 2020
+| Host         : LAPTOP-EO0RR57C running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    63 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      2 |            2 |
+|      4 |            8 |
+|      8 |            2 |
+|      9 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               9 |            2 |
+| No           | No                    | Yes                    |               4 |            2 |
+| No           | Yes                   | No                     |              24 |            7 |
+| Yes          | No                    | No                     |              34 |           10 |
+| Yes          | No                    | Yes                    |               8 |            2 |
+| Yes          | Yes                   | No                     |              34 |           12 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------+---------------------------+--------------------------+------------------+----------------+
+|    Clock Signal   |       Enable Signal       |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++-------------------+---------------------------+--------------------------+------------------+----------------+
+|  clk_IBUF_BUFG    | disp_dot_i_1_n_0          | disp_num[3]_i_1_n_0      |                1 |              1 |
+|  clk_IBUF_BUFG    | an[1]_i_1_n_0             |                          |                1 |              2 |
+|  clk_IBUF_BUFG    | an[1]_i_1_n_0             | an[3]_i_1_n_0            |                1 |              2 |
+|  clk_IBUF_BUFG    | disp_num[3]_i_2_n_0       | disp_num[3]_i_1_n_0      |                3 |              4 |
+|  clk_IBUF_BUFG    | num_goods_disp[3]_i_1_n_0 |                          |                1 |              4 |
+|  deal_IBUF_BUFG   |                           | rst_IBUF                 |                2 |              4 |
+|  deal_IBUF_BUFG   | num_goods[7]_i_1_n_0      |                          |                1 |              4 |
+|  deal_IBUF_BUFG   | num_goods[3]_i_1_n_0      |                          |                1 |              4 |
+|  deal_IBUF_BUFG   | num_goods[11]_i_1_n_0     |                          |                2 |              4 |
+|  key_IBUF_BUFG[0] | key_IBUF_BUFG[0]          | rst_IBUF                 |                1 |              4 |
+|  key_IBUF_BUFG[1] | key_IBUF_BUFG[1]          | rst_IBUF                 |                1 |              4 |
+|  clk_IBUF_BUFG    | led[7]_i_1_n_0            |                          |                2 |              8 |
+|  deal_IBUF_BUFG   | changes                   |                          |                2 |              8 |
+|  clk_IBUF_BUFG    |                           |                          |                2 |              9 |
+|  clk_IBUF_BUFG    |                           | clk_cnt[23]_i_1_n_0      |                7 |             24 |
+|  clk_IBUF_BUFG    | blink_clk_cnt             | blink_clk_cnt[0]_i_1_n_0 |                7 |             27 |
++-------------------+---------------------------+--------------------------+------------------+----------------+
+
+
